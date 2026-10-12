@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.env
+.env.local
+backend/.env
+backend/target/
+.DS_Store
+
+# Environment and secrets
+.env.*
+!.env.example
+backend/.env.*
+!backend/.env.example
+
+# Build output
+backend/target/
+dist/
+node_modules/
+
+# Local files
+.DS_Store
